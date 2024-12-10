@@ -80,13 +80,3 @@ p {
   border: 2px solid var(--Primario);
   color: var(--Primario);
 }
-.buttonnext {
-    border: 2px solid var(--Primario-80);
-    background-color: transparent;
-    color: var(--Primario-80);
-    padding: 0.5em;
-  }
-  .buttonnext:hover {
-    border: 2px solid var(--Primario);
-    color: var(--Primario);
-  }

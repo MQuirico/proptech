@@ -34,13 +34,17 @@
 .avatar-container {
   position: relative;
   display: inline-block;
-}
-
-.avatar {
   width: 200px;
   height: 200px;
   border-radius: 50%;
   border: 3px solid #40e0d0;
+  overflow: hidden;
+}
+
+.avatar {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .edit-button {
@@ -78,7 +82,7 @@ h1 {
   font-weight: bold;
   cursor: pointer;
   position: relative;
-  left: 80%
+  left: 80%;
 }
 
 .info-grid {
@@ -87,7 +91,8 @@ h1 {
   gap: 20px;
 }
 
-.personal-info, .credit-score {
+.personal-info,
+.credit-score {
   background: #222;
   border-radius: 15px;
   padding: 20px;
@@ -133,7 +138,7 @@ h1 {
 }
 
 .gauge::before {
-  content: '';
+  content: "";
   position: absolute;
   width: 200px;
   height: 100px;
@@ -179,4 +184,3 @@ h1 {
     grid-template-columns: 1fr;
   }
 }
-

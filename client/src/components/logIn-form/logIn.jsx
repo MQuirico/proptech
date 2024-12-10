@@ -27,15 +27,13 @@ export function LoginForm() {
 
   console.log("TOKEN DE USUARIO --->", user)
 
-  const loginSubmit = (data) => {
+  const loginSubmit = async (data) => {
     console.log("Formulario enviado");
     const loginData = data;
     console.log(loginData);
     dispatch(login(loginData));
     reset();
-    if(user){
-      navigate("/user/buyer")
-    }
+    navigate("/user/buyer")
   };
 
 

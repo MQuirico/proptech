@@ -1,0 +1,73 @@
+.content {
+  background-color: #1a1d24;
+  color: #ffffff;
+  padding: 2rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  box-sizing: border-box;
+}
+.contentForm {
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+.inputlabel {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-size: 90%;
+  text-align: left !important;
+  margin-bottom: 5px;
+  margin-top: 15px;
+}
+.inputlabel label {
+  width: 100%;
+  font-size: 90%;
+  text-align: left !important;
+  margin-bottom: 5px;
+  margin-top: 15px;
+}
+.inputlabel input {
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 8px;
+  height: 35px;
+  border: 1px solid var(--Primario);
+  margin-bottom: 5px;
+  padding: 8px;
+  background-color: transparent;
+}
+.inputcheck {
+  display: flex;
+  align-items: center; /* Alinea verticalmente el checkbox y el label */
+  grid-column: span 2; /* Esto hace que ocupe toda la fila */
+  width: 100%;
+}
+
+.inputcheck input {
+  margin-right: 10px; /* Espacio entre el checkbox y el texto */
+}
+
+.inputcheck label {
+  font-size: 0.9rem; /* Puedes ajustar el tamaño del texto si es necesario */
+}
+.buttonContainer {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  grid-column: span 2;
+  margin-top: 1rem;
+}
+.buttonnext {
+  border: 2px solid var(--Primario-80);
+  background-color: transparent;
+  color: var(--Primario-80);
+  padding: 0.5em;
+}
+.buttonnext:hover {
+  border: 2px solid var(--Primario);
+  color: var(--Primario);
+}

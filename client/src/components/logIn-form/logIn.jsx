@@ -33,13 +33,12 @@ export function LoginForm() {
     console.log(loginData);
     dispatch(login(loginData));
     reset();
-  };
-
-useEffect(() => {
     if(user){
       navigate("/user/buyer")
     }
-}, [user])
+  };
+
+
 
   return (
     <>

@@ -24,7 +24,12 @@ export function LandingPage() {
         <br />
         Transparente, confiable y accesible para todos.
       </p>
-      <button id="topButton">COMIENZA AHORA</button>
+      <button
+        style={{ width: "40%", padding: "15px" }}
+        className="regularButton"
+      >
+        COMIENZA AHORA
+      </button>
     </main>
   );
   //Inversión Inteligente

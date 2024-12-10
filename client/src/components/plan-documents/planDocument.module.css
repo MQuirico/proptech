@@ -1,0 +1,130 @@
+.content {
+  background-color: #1a1d24;
+  color: #ffffff;
+  padding: 2rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+}
+.titletext {
+  color: var(--Primario);
+  margin: 15%;
+}
+.titletext h4 {
+  font-size: 3vh;
+  margin-block: 0;
+}
+.titletext p {
+  font-size: 2vh;
+}
+.introductiontext {
+  width: 90%;
+  text-align: justify;
+  color: var(--Secundario);
+  font-size: 1.8vh;
+}
+.datacontainer {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  justify-content: space-between;
+}
+.datatext {
+  width: 45%;
+}
+.datatext ol {
+  font-weight: bold;
+  color: var(--Texto);
+}
+.datatext li span {
+  font-size: 1.8vh;
+}
+.dataupload {
+  width: 45%;
+  background-color: var(--Fondo-1);
+  border-radius: 20px;
+  justify-content: center;
+}
+.buttonnext {
+  border: 2px solid var(--Primario-80);
+  background-color: transparent;
+  color: var(--Primario-80);
+  padding: 0.5em;
+}
+.buttonnext:hover {
+  border: 2px solid var(--Primario);
+  color: var(--Primario);
+}
+.buttoncontainer {
+  display: flex;
+  width: 90%;
+  flex-direction: row;
+  margin-block: 2em;
+  justify-content: end;
+  gap: 2em;
+}
+.dragcontainer {
+  background-color: var(--Fondo-2);
+  border-radius: 20px;
+  width: 70%;
+  border: dashed 3px var(--Texto);
+  margin-inline: 15%;
+  text-align: center;
+  padding-block: 2em;
+  margin-block: 2em;
+}
+.dragcontainer svg {
+  font-size: 6vh;
+}
+.dragcontainer h4 {
+  font-weight: 200;
+  font-size: 2vh;
+  margin: 0;
+}
+.dragcontainer p {
+  font-weight: 100;
+  font-size: 1.7vh;
+  margin: 0;
+}
+.uploadbuttons {
+  background-color: var(--Terciario);
+  padding: 10px;
+  margin-block: 1em;
+}
+.uploadbuttons:hover {
+  background-color: var(--Terciario-20);
+}
+.archive {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--Fondo-2);
+  border-radius: 20px;
+  width: 70%;
+  margin: 2em 15%;
+}
+.docicon {
+  width: 90%;
+  margin-inline: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-block: 1.5em;
+}
+
+.iconpdf {
+  height: auto;
+  overflow: hidden;
+  align-items: center;
+  align-content: center;
+}
+.state {
+  display: flex;
+  flex-direction: wrap;
+  width: 90%;
+}
+.textdoc h4,
+p {
+  margin: 0;
+  padding-left: 0;
+}

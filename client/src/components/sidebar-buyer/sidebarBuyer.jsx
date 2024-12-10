@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import styles from "./sidebarBuyer.module.css";
 import { logoFinancial } from "../../assets";
 import { FaChartBar } from "react-icons/fa";
@@ -11,7 +11,9 @@ export function SidebarBuyer() {
   return (
     <div className={styles.sidebarBuyer}>
       <div className={styles.logoContainer}>
+        <Link to="/">
         <img src={logoFinancial} />
+        </Link>
       </div>
       <div className={styles.buttonsContainer}>
         <NavLink
@@ -56,10 +58,12 @@ export function SidebarBuyer() {
           <GrDatabase />
           Solicitudes
         </button>
+        <Link to="/">
         <button className={styles.sidebarButtons}>
           <RiLogoutBoxRLine />
           Cerrar Sesión
         </button>
+        </Link>
       </div>
     </div>
   );

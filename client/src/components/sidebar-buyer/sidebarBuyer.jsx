@@ -12,7 +12,7 @@ export function SidebarBuyer() {
     <div className={styles.sidebarBuyer}>
       <div className={styles.logoContainer}>
         <Link to="/">
-        <img src={logoFinancial} />
+          <img src={logoFinancial} />
         </Link>
       </div>
       <div className={styles.buttonsContainer}>
@@ -54,15 +54,13 @@ export function SidebarBuyer() {
           Perfil
         </NavLink>
 
-        <button className={styles.sidebarButtons}>
+        <NavLink className={styles.sidebarButtons}>
           <GrDatabase />
           Solicitudes
-        </button>
-        <Link to="/">
-        <button className={styles.sidebarButtons}>
+        </NavLink>
+        <Link to="/" className={styles.sidebarButtons}>
           <RiLogoutBoxRLine />
           Cerrar Sesión
-        </button>
         </Link>
       </div>
     </div>

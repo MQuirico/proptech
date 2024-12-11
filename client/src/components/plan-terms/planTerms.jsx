@@ -1,3 +1,8 @@
-export function PlanTerms() {
-  return <h1>Aca se aceptan los terminos y servicios</h1>;
+export function PlanTerms({ handleNextStep }) {
+  return (
+    <div>
+      <p>Aca es donde aceptas el contrato</p>
+      <button onClick={handleNextStep}>Siguiente paso</button>
+    </div>
+  );
 }

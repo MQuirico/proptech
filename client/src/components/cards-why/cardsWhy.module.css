@@ -24,7 +24,7 @@
   .card p {
     color: var(--Texto);
     font-size: 1.8vh;
-    text-align: justify;
+    text-align: left;
     border-radius: 15%;
     margin-top: 0;
   }

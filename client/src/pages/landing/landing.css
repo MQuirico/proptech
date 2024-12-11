@@ -637,6 +637,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-block: 20px;
   font-weight: 800;
   width: 60%;
   padding: 2%;
@@ -663,6 +664,7 @@
   font-weight: 800;
   color: var(--Fondo-1);
   background-color: var(--Primario);
+  margin-block: 20px;
 }
 
 .regularButton:hover {

@@ -74,11 +74,15 @@
 .simulate-button {
   background-color: transparent;
   color: var(--Secundario);
-  border: 1px solid var(--Secundario);
+  border: 2px solid var(--Secundario);
   padding: 0.5rem 2rem;
   border-radius: 4px;
   cursor: pointer;
   align-self: last baseline;
+}
+.simulate-button:hover {
+  color: var(--Terciario);
+  border: 2px solid var(--Terciario);
 }
 
 .section-title {

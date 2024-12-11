@@ -9,7 +9,7 @@ import { SidebarBuyer } from "./sidebar-buyer/sidebarBuyer";
 import { PlanCalculator } from "./plan-calculator/planCalculator";
 import { PlanSelected } from "./plan-selected/planSelected";
 import { PlanDocument } from "./plan-documents/planDocument";
-import { PlanTerms } from "./plan-terms/planTerms";
+import PlanTerms from "./plan-terms/planTerms";
 import { PlanSend } from "./plan-sended/planSend";
 import { PlanData } from "./plan-data/planData";
 

@@ -5,7 +5,7 @@ import {
   PlanSelected,
   PlanData,
   PlanTerms,
-  PlanSend,
+  PlanSend
 } from "../../components";
 import "./credit-simulator.css";
 

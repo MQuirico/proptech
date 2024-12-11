@@ -109,7 +109,9 @@ export function AvailablePlans() {
   )
 
   return (
+    <>
     <div className="container">
+      <div className="paginationFilters">
       <div className="filters">
         <select className="filter-select">
           <option value="">Tasa de interés</option>
@@ -127,16 +129,16 @@ export function AvailablePlans() {
         </select>
         
         <button className="search-button">Buscar</button>
+
       </div>
 
-      <div className="pagination-container">
-        <Pagination 
+      <Pagination 
           currentPage={currentPage}
           totalPages={totalPages}
           onPageChange={setCurrentPage}
         />
-      </div>
 
+      </div>
       <div className="personalization">
         <h2 className="personalization-title">
           Personaliza tu financiación
@@ -164,6 +166,7 @@ export function AvailablePlans() {
         ))}
       </div>
     </div>
+    </>
   )
 }
 

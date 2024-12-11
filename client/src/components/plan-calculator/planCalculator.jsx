@@ -156,13 +156,13 @@ export function PlanCalculator({ handleNextStep }) {
             <div className={styles.totalAmount}>
               <label>Saldo a financiar</label>
               <span className={styles.highlightAmount}>
-                {calcularMontoFinanciado().toFixed(2)}$
+              ${calcularMontoFinanciado().toFixed(2)}
               </span>
             </div>
             <div className={styles.cuotesData}>
               <div className={styles.rate}>
                 <label>Cuota mensual</label>
-                <span className={styles.highlightText}>{calcularCuota()}$</span>
+                <span className={styles.highlightText}>${calcularCuota()}</span>
               </div>
 
               <div className={styles.tct}>

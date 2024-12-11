@@ -10,3 +10,7 @@
   background-color: var(--Fondo-2);
   color: var(--Texto);
 }
+.sectionstyle {
+  border-radius: 40px;
+  background-color: var(--Fondo-2);
+}

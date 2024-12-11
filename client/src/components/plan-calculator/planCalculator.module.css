@@ -101,7 +101,7 @@ h1 {
 }
 
 .calculationDetails {
-  background-color: rgba(255, 255, 255, 0.05);
+  background-color: var(--Fondo-1);
   border-radius: 12px;
   padding: 2rem;
   width: 45%;
@@ -187,7 +187,7 @@ h1 {
   justify-content: end;
 }
 .continueButton {
-  background-color: #f4b860;
+  background-color: var(--Secundario);
   color: #1a1d24;
   border: none;
   border-radius: 4px;

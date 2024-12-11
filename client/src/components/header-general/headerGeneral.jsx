@@ -69,7 +69,7 @@ export function HeaderGeneral() {
             </Link>
           </div>
         </Toolbar>
-        <Toolbar className={styles.secondToolbar}>
+        {/* <Toolbar className={styles.secondToolbar}>
           <div className={styles.subButtonsContainer}>
             <Typography variant="button" className={styles.subButton}>
               Lorem
@@ -87,7 +87,7 @@ export function HeaderGeneral() {
               Lorem
             </Typography>
           </div>
-        </Toolbar>
+        </Toolbar> */}
       </div>
       {/* Menu mobile */}
       <div className={styles.mobileVersion}>

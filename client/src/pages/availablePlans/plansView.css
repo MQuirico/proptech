@@ -59,13 +59,13 @@
 }
 
 .personalization-title {
-  color: var(--Secundario-20);
+  color: var(--Secundario);
   margin: 0 0 1rem 0;
   text-align: left;
 }
 
 .personalization-text {
-  color: var(--color-text-secondary);
+  color: var(--Texto);
   margin-bottom: 1.5rem;
   text-align: left;
   width: 90%;
@@ -134,7 +134,7 @@
 }
 
 .card-button {
-  width: 40%;
+  width: 50%;
   background-color: var(--Primario);
   color: black;
   border: none;
@@ -143,7 +143,7 @@
   font-weight: bold;
   cursor: pointer;
   position: relative;
-  left: 60%;
+  left: 50%;
 }
 
 .pagination {

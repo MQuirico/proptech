@@ -1,5 +1,5 @@
 .simulator-container {
-  background-color: #1a1d24;
+  background-color: var(--Fondo-2);
   color: #ffffff;
   padding: 2rem;
   min-height: 100vh;
@@ -7,6 +7,7 @@
   flex-direction: column;
   align-items: center;
   width: 80vw;
+  border-radius: 40px;
 }
 
 .simulator-container .progress-steps {
@@ -30,9 +31,9 @@
 }
 
 .simulator-container .progress-steps .step.active {
-  background-color: var(--Terciario-30);
-  border: 2px solid var(--Terciario-30);
-  color: #1a1d24;
+  background-color: var(--Terciario);
+  border: 2px solid var(--Terciario);
+  color: var(--Fondo-1);
 }
 
 .step-line {
@@ -218,7 +219,7 @@ h1 {
   margin-bottom: 0.5rem;
 }
 .container-button {
-  width:100%;
+  width: 100%;
   display: flex;
 }
 .continue-button {

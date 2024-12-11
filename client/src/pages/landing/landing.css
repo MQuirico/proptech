@@ -189,7 +189,7 @@
   }
 
   #landing #finanDream #finanDreamAside #yourDreamText {
-    text-align: justify;
+    text-align: left;
     font-size: 1.8vh;
     color: var(--Texto);
   }
@@ -254,7 +254,7 @@
   #landing #whoAreWe #whoAreWeAside #whoWeAreText {
     font-size: 1.8vh;
     width: 100%;
-    text-align: justify;
+    text-align: left;
     color: var(--Texto);
   }
 
@@ -304,7 +304,7 @@
   }
 
   #landing #ourCompr #textDivOurCompr #textOurCompr {
-    text-align: justify;
+    text-align: left;
     font-size: 1.8vh;
   }
 
@@ -425,7 +425,7 @@
   }
 
   #landing #smartInv #smartInvAside #investText {
-    text-align: justify;
+    text-align: left;
     font-size: 1.8vh;
     color: var(--Texto);
     width: 100%;
@@ -567,7 +567,7 @@
   #landing #whoAreWe #whoAreWeAside #whoWeAreText {
     font-size: 1.8vh;
     width: 100%;
-    text-align: justify;
+    text-align: left;
     color: var(--Texto);
   }
 

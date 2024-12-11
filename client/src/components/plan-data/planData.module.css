@@ -1,5 +1,4 @@
 .content {
-  background-color: #1a1d24;
   color: #ffffff;
   padding: 2rem;
   min-height: 100vh;
@@ -62,12 +61,12 @@
   margin-top: 1rem;
 }
 .buttonnext {
-  border: 2px solid var(--Primario-80);
+  border: 2px solid var(--Primario);
   background-color: transparent;
-  color: var(--Primario-80);
+  color: var(--Primario);
   padding: 0.5em;
 }
 .buttonnext:hover {
-  border: 2px solid var(--Primario);
-  color: var(--Primario);
+  border: 2px solid var(--Primario-80);
+  color: var(--Primario-80);
 }

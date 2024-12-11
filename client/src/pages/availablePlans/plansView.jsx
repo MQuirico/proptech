@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { NavLink } from "react-router-dom";
 import FinancialCard from "../../data/PlansView - Financial Card/financial-card";
 import Pagination from "../../data/PlansView - Financial Card/pagination";
 import "./plansView.css";
@@ -146,7 +147,12 @@ export function AvailablePlans() {
               ajusta los valores que prefieras y simula tu plan ideal para que
               encontremos la mejor opción para ti.
             </p>
-            <button className="simulate-button">Simular</button>
+            <NavLink
+              to="/user/buyer/credit-simulator"
+              className="simulate-button"
+            >
+              Simular
+            </NavLink>
           </div>
 
           <h2 className="section-title">
